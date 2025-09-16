@@ -10,7 +10,7 @@ Nền tảng GlobalSpeak giúp học viên cải thiện **kỹ năng tiếng An
 
 Mỗi bài tập có độ khó khác nhau (**easy, medium, hard**) và khi học viên hoàn thành, họ sẽ nhận được điểm số từ **0 đến 100**.  
 
-Mục tiêu của hệ thống gợi ý là **dự đoán kết quả học viên sẽ đạt được với những bài tập chưa làm**. Từ đó, chúng ta có thể giới thiệu cho từng hta viên **bài tập phù hợp nhất** với trình độ và lịch sử học tập của họ.  
+Mục tiêu của hệ thống gợi ý là **dự đoán kết quả học viên sẽ đạt được với những bài tập chưa làm**. Từ đó, chúng ta có thể giới thiệu cho từng học viên **bài tập phù hợp nhất** với trình độ và lịch sử học tập của họ.  
 
 Bài tập này sẽ đánh giá khả năng của bạn trong việc:  
 - Hiểu dữ liệu về tương tác học viên – bài tập.  
@@ -22,7 +22,7 @@ Bài tập này sẽ đánh giá khả năng của bạn trong việc:
 
 ## 2. Dữ liệu cung cấp
 
-Bạn sẽ nhận được 3 tệp CSV:
+Bạn sẽ nhận được 2 tệp CSV:
 
 - **train.csv** – dữ liệu huấn luyện, bao gồm kết quả làm bài (có điểm số).  
 - **test.csv** – dữ liệu kiểm tra, có cùng cấu trúc nhưng **không có điểm số** (bạn cần dự đoán).   
@@ -51,8 +51,8 @@ learner_id,exercise_id,exercise_type,difficulty,score,timestamp
 
 1. **Xây dựng mô hình:**
    - Huấn luyện mô hình dự đoán điểm số trên tập `train.csv`.  
-   - Bạn có thể lựa chọn và so sánh ít nhất **hai phương pháp**, ví dụ:  
-     - Collaborative Filtering (User-User / Item-Item).  
+   - Bạn có thể lựa chọn các **phương pháp** ví dụ sau:
+     - Collaborative Filtering (User-User / Item-Item).
      - Content-based Filtering (sử dụng thông tin `exercise_type`, `difficulty`).  
      - Matrix Factorization (SVD/ALS).  
      - Hoặc bất kỳ phương pháp gợi ý nào khác bạn thấy phù hợp.  
