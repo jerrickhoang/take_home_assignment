@@ -1,8 +1,8 @@
-# Bài tập Take-Home: Hệ thống gợi ý bài tập tiếng Anh BeeTech
+# Bài tập Take-Home: Hệ thống gợi ý bài tập tiếng Anh
 
 ## 1. Bối cảnh & Mục tiêu
 
-Nền tảng GlobalSpeak giúp học viên cải thiện **kỹ năng tiếng Anh** thông qua các bài tập thuộc 4 nhóm kỹ năng chính:  
+Nền tảng giúp học viên cải thiện **kỹ năng tiếng Anh** thông qua các bài tập thuộc 4 nhóm kỹ năng chính:  
 - **Reading (Đọc hiểu)**  
 - **Writing (Viết)**  
 - **Listening (Nghe hiểu)**  
